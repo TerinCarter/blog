@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.6'
 
 group :production do
-	gem 'pg'
+	gem 'pg', '2.26.2'
 end
 group :development do
 	gem 'sqlite3'
